@@ -1,0 +1,65 @@
+
+body {
+  margin: 0; /* Remove default margin to ensure full coverage */
+  padding: 0; /* Remove default padding */
+  background-image: url('https://mdbootstrap.com/img/new/fluid/nature/015.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height of the viewport */
+  font-family: 'Open Sans', sans-serif;
+}
+.align-content-center{
+  width: auto; /* You can adjust the width as needed */
+  text-align: center; /* Optional: Center text within the content */
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.box {
+  background-color: rgba(19,10,9,0.76);
+  width: 500px ;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+  color: white;
+  vertical-align: center;
+  horiz-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+
+
+.btn {
+display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(19,10,9,0.76);
+  width: 500px ;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+  color: white;
+  vertical-align: center;
+  horiz-align: center;
+}
+
+.back {
+  margin: 50px;
+}
